@@ -21,6 +21,7 @@ public class MilvusController {
         R<Boolean> response = milvusClient.hasCollection(
                 HasCollectionParam.newBuilder()
                         .withCollectionName("hello_milvus")
+                        .withDatabaseName("default")
                         .build());
 
         System.out.println("milvus status is : " + response.getStatus());
