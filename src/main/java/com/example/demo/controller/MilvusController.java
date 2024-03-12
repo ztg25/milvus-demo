@@ -27,6 +27,6 @@ public class MilvusController {
         System.out.println("milvus status is : " + response.getStatus());
         System.out.println("response : " + response.getMessage());
 
-//        System.out.println("good boy!!!");
+        System.out.println("good boy!!!");
     }
 }

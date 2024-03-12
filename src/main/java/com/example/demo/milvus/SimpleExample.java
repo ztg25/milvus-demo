@@ -14,12 +14,12 @@ public class SimpleExample {
 
     public static void main(String[] args) {
         // list collections
-//        R<Boolean> response = milvusClient.hasCollection(
-//                HasCollectionParam.newBuilder()
-//                        .withCollectionName("hello_milvus")
-//                        .build());
-//
-//        System.out.println("milvus status is : " + response.getStatus());
+        R<Boolean> response = milvusClient.hasCollection(
+                HasCollectionParam.newBuilder()
+                        .withCollectionName("hello_milvus")
+                        .build());
+
+        System.out.println("milvus status is : " + response.getStatus());
 
         System.out.println("good boy!!!");
     }
